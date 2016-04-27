@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="University of San Francisco" content="ITS - Business Intelligence Portal, JavaScript, HTML, CSS, jquery, bootstrap">
+      <title>BIPDemo</title>
+      <!-- favicon -->
+      <link rel="icon" href="/favicon.ico?v=1.1">
+      <!-- Bootstrap Core CSS -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <!-- Latest compiled and minified CSS -->
+
+      <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+
+      <!-- Custom Fonts -->
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ 
+      <!-- Tableau API Production -->
+      <script type='text/javascript' src='https://dataviz.usfca.edu/javascripts/api/tableau-2.js'></script>
+      <!-- Tableau API Development -->
+      <script type='text/javascript' src='https://insightwdev.usfca.edu/javascripts/api/tableau-2.js'></script>
+      <!-- Tableau Public API -->
+      <!--  <script type="text/javascript" 
+        src="https://public.tableau.com/javascripts/api/tableau-2.js"></script> -->
+    
+    <script>
+    function sheetLoaded(spreadsheetdata) {
+    // do something with spreadsheet data here
+    
+      console.log(spreadsheetdata);
+    }
+    </script>
+</head>
+
+<body>
+
+<div class="wrapper">
+  
+  <header class="site-header">
+      <nav class="site-nav navbar-default navbar-fixed-top" role="navigation">
+      <span><a href="#0" class="logo">
+        <img src="img/usflogolgtrans.png" />
+      </a></span> 
+      <ul>
+          <li class="active"><a href="#0">HOME</a></li>
+          <li><a href="glossary.html">GLOSSARY</a></li>
+          <li><a href="#0">REPORTS</a></li>
+          <li><form class="navbar-form" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i></button>
+                </div>
+            </div></form></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <aside>
+
+  </aside>
+  
+
+  <main>
+
+       <div class="results"></div> 
+ 
+<script>
+ 
+ // ID of the Google Spreadsheet
+ var spreadsheetID = "1KhEXZKo6Nqw10VPQRzyEES0lq3lJ2UJIsLeanO93gUY";
+ 
+ // Make sure it is public or set to Anyone with link can view 
+ var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
+ 
+ $.getJSON(url, function(data) {
+ 
+  var entry = data.feed.entry;
+ 
+  $(entry).each(function(){
+    // Column names are name, age, etc.
+    $('.results').prepend('<h2>'+this.gsx$term.$t+'</h2><p>'+this.gsx$name.$t+'</p>');
+  });
+ 
+ });
+ 
+</script>           
+  </main>
+  
+
+  <footer class="footer-distributed">
+      <div class="footer-left">
+        <a src="https://myusf.usfca.edu/cipe">
+          <h3 style="font-family:Arial;">CIPE<span> | University of San Francisco</span></h3>
+        </a>
+        <p class="footer-links">
+          <a href="#">HOME</a>
+          |
+          <a href="#">USF Website</a>
+          |
+          <a href="#">Directions & Maps</a>
+          |
+          <a href="#">Feedback</a>
+          |
+          <a href="#">Careers at USF</a>
+
+        </p>
+        <p class="footer-company-name" >University of San Francisco &copy; 2016</p>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p>Contact Us</p>
+        <form action="mailto:?" method="post">
+          <input type="text" name="email" placeholder="Email" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <button>Send</button>
+        </form>
+      </div>
+
+  </footer>
+</div>
+
+        <script src="js/usfbip.js" type="text/javascript"></script>
+        <script src="js/jquery-2.2.3.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+  
+</div><!-- /.container-fluid -->
+
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/glossary.js"></script>
+
+</body >
+</html>
