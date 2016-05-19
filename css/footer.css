@@ -4,12 +4,12 @@ html, body {
   height: 100%;
 	padding: 2px;
   font-family: "Source Sans Pro", sans-serif;
-  background: #d3d3d3;
+  background:   #E0E0E0;
 }
 
 header a img {
 	height: 120px;
-	margin-left: 10px;
+	margin-left: 2.5px;
 }
 
 body div nav {
@@ -20,7 +20,7 @@ body div nav {
 }
 
 .content img {
-  width: 230px;
+  width: 275px;
 }
 
 nav a {
@@ -63,6 +63,7 @@ nav.shrink .navbar-toggle {
           align-items: center;
   position:absolute; 
   color: white;
+
 }
 
 @media (max-width: 600px) {
@@ -195,6 +196,7 @@ nav.shrink .navbar-toggle {
   margin: 10px 10px 10px 10px;
   border-radius: 5%;
 
+
 }
 
 .green {
@@ -212,7 +214,7 @@ nav.shrink .navbar-toggle {
 .usfbutton a h3 span {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 900;
-  color: black;
+  color: white;
   text-transform: uppercase;
   margin: 0;
   position: absolute;
@@ -333,14 +335,14 @@ nav.shrink .navbar-toggle {
 }
 
 .wrapper main, .wrapper aside {
-  min-height: 780px;
+  min-height: auto;
 
 }
 
 .wrapper main {
-  width: 80%;
+  width: 99%;
   float: right;
-  margin-top: 180px;
+  margin-top: 220px;
   border-radius: 5%;
   margin-left: 0px;
   
@@ -370,11 +372,12 @@ nav.shrink .navbar-toggle {
   height: 135px;
   width: 100%;
   position:absolute; 
+
 }
 
 .wrapper footer {
   margin: 1.69492% 0 0 0;
-  height: auto;
+  height: 700px;
   background: #FDBB30;
 
 }

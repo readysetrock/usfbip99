@@ -873,3 +873,50 @@ hr.small {
               </div>
         </div>    
     </div>
+
+              <div class="element-item metalloid " data-category="metalloid">
+                    <div class="content">
+                      <div class="content-overlay"></div>
+                        <a href="https://dataviz.usfca.edu/#/views/StudentPopulationTrendsbyStateNation/CollegeTrend" target="_blank">
+                          <img class="content-image" src="img/thumbnailPNG/CollegeComparisonOverall.png">
+                          <div class="content-details fadeIn-bottom">
+                              <h3 class="content-title">College Comparison</h3>
+                              <p class="symbol">student</p>
+                              <p class="number">1</p>
+                              <p class="weight">100</p>
+                          </div>
+                        </a>
+                      </div>
+                  </div>
+
+
+                  <div class="element-item post-transition metal " data-category="post-transition">
+                    <div class="content">
+                      <div class="content-overlay"></div>
+                        <a href="https://dataviz.usfca.edu/#/views/StudentPopulationTrendsbyStateNation/CollegeTrend" target="_blank">
+                          <img class="content-image" src="img/thumbnailPNG/CollegeTrend.png">
+                          <div class="content-details fadeIn-bottom">
+                              <h3 class="content-title">College Trend</h3>
+                              <p class="symbol">student</p>
+                              <p class="number">1</p>
+                              <p class="weight">100</p>
+                          </div>
+                        </a>
+                    </div>
+                  </div>
+                  
+                  <div class="element-item post-transition metal " data-category="post-transition">
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                        <a href="https://dataviz.usfca.edu/#/views/StudentPopulationTrendsbyStateNation/CollegeTrend" target="_blank">
+                          <img class="content-image" src="img/thumbnailPNG/DetailbyDepartment.png">
+                          <div class="content-details fadeIn-bottom">
+                              <h3 class="content-title">Department Detail</h3>
+                              <p class="symbol">student</p>
+                              <p class="number">1</p>
+                              <p class="weight">100</p>
+                          </div>
+                        </a>
+                    </div>
+                  </div>
+      border: .8em solid #00543C;
