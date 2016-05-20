@@ -18,7 +18,10 @@ body div nav {
   margin-right: 2px;
   margin-left: 0px;
 }
-
+.body {
+  margin-top: 220px;
+  margin-left: 500px solid clear;
+}
 .content img {
   width: 275px;
 }
