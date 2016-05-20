@@ -8,7 +8,8 @@ html, body {
 }
 
 header a img {
-	height: 120px;
+	width: 100%;
+  height: auto;
 	margin-left: 2.5px;
 }
 
@@ -20,13 +21,13 @@ body div nav {
 }
 .body {
   margin-top: 220px;
-  margin-left: 10px;
-  height: 100%;
-  width: auto;
+  margin-left: 5px;
+
   
 }
-.content img {
-  width: 275px;
+img {
+  width: 100%;
+  height: auto;
 }
 
 nav a {
