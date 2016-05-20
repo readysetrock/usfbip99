@@ -21,6 +21,9 @@ body div nav {
 .body {
   margin-top: 220px;
   margin-left: 10px;
+  height: 100%;
+  width: auto;
+  
 }
 .content img {
   width: 275px;
