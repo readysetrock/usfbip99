@@ -1,3 +1,90 @@
+@media screen and (max-width: 959px) {
+  .container {
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+
+  .site-header .site-nav {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+            order: 2;
+    -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+  }
+  .site-header .site-nav a {
+    font-size: 1rem;
+  }
+  .site-header .account-actions {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1080px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-company-name{
+    font-size: 12px;
+  }
+
+  .footer-distributed form input,
+  .footer-distributed form textarea{
+    width: 250px;
+  }
+
+  .footer-distributed form button{
+    padding: 10px 35px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .footer-distributed{
+    padding: 30px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    float: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer-distributed .footer-left{
+    margin-bottom: 40px;
+  }
+
+  .footer-distributed form{
+    margin-top: 30px;
+  }
+
+  .footer-distributed form{
+    display: block;
+  }
+
+  .footer-distributed form button{
+    float: none;
+  }
+}
+
+
+
+
 /* header css */
 html, body {
 	width: 100%;
@@ -16,9 +103,16 @@ header a img {
 
 body div nav {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 2px;
   margin-left: 0px;
+}
+
+.container {
+
+  width: 80%;
+  margin: 0px auto;
+
 }
 .main {
   margin-top: 180px;
@@ -73,36 +167,6 @@ nav.shrink .navbar-toggle {
   position:absolute; 
   color: white;
 
-}
-
-@media (max-width: 600px) {
-  .site-header {
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-  }
-
-  .site-header .site-nav {
-    -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
-    -ms-flex-order: 2;
-            order: 2;
-    -webkit-flex-basis: 100%;
-        -ms-flex-preferred-size: 100%;
-            flex-basis: 100%;
-  }
-  .site-header .site-nav a {
-    font-size: 1rem;
-  }
-  .site-header .account-actions {
-    margin-left: auto;
-  }
-}
-
-.container {
-
-  width: 100%;
-  height:auto;
 }
 
 .logo {
