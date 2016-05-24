@@ -2,15 +2,16 @@
 html, body {
 	width: 100%;
   height: 100%;
-	padding: 2px;
+	padding: 1px;
   font-family: "Source Sans Pro", sans-serif;
   background:   #E0E0E0;
 }
 
 header a img {
-	width: 100%;
+	width: 230px;
   height: auto;
 	margin-left: 2.5px;
+  border-radius: 0% !important;
 }
 
 body div nav {
@@ -20,12 +21,14 @@ body div nav {
   margin-left: 0px;
 }
 .main {
-  margin-top: 200px;
-  margin-left: 10px;
+  margin-top: 180px;
+  margin-left: auto;
 }
+
 img {
-  width: 100%;
-  height: auto;
+  border-radius: 5%;
+  width: 230px;
+  height: 180px;
 }
 
 nav a {
@@ -35,12 +38,13 @@ nav a {
 }
 
 nav .navbar-toggle {
-  margin: 13px 30px 13px 0;
+  margin: 0px 30px 13px 0;
 }
 
 nav.navbar.shrink {
   min-height: 35px;
 }
+
 
 nav.shrink a {
   padding-top: 10px !important;
@@ -95,10 +99,10 @@ nav.shrink .navbar-toggle {
   }
 }
 
-.container-fluid {
+.container {
 
   width: 100%;
-  height:100%;
+  height:auto;
 }
 
 .logo {
@@ -130,12 +134,12 @@ nav.shrink .navbar-toggle {
 }
 
 .content:hover .content-overlay{
-  opacity: .7;
+  opacity: .8;
   border-radius: 5%;
 }
 
 .content-image {
-  width: 300px !important;
+  width: 230px;
   height: auto;
   border-radius: 5%;
 }
@@ -143,9 +147,9 @@ nav.shrink .navbar-toggle {
 .content-details {
   position: absolute;
   text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 300px;
+  padding-left: 0em;
+  padding-right: 0em;
+  width: 230px;
   top: 50%;
   left: 50%;
   opacity: 0;
@@ -165,67 +169,53 @@ nav.shrink .navbar-toggle {
 
 .content-details h3{
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .content-details p{
   color: #fff;
-  font-size: 0.15em;
+  font-size: 0.65em;
 }
 
 .content {
     border-radius: 5%;
     height: auto;
-    width: 300px;
+    width: 230px;
     position: relative;
-    margin: 15px 20px 20px 10px;
+    margin: 10px 20px 20px 10px;
     overflow: hidden;
     float: left;
 }
 
 .usfbutton {
-  max-width: 100%;
-  height: 250px;
-  margin: 10px 10px 10px 10px;
+  max-width: 230px;
+  height: 190px;
   border-radius: 5%;
 
 }
 
 .usfbutton1 {
-  max-width: 100%;
-  height: 250px;
-  margin: 10px 10px 10px 10px;
-  border-radius: 5%;
-
-
-}
-
-.green {
-
-  border: .8em solid #00543C;
+  max-width: 230px;
+  height: 190px;
   border-radius: 5%;
 }
 
-.yellow {
 
-  border: .8em solid #FDBB30;
-  border-radius: 5%;
-}
 
 .usfbutton a h3 span {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   color: white;
   text-transform: uppercase;
   margin: 0;
   position: absolute;
   top: 40%;
   left: 50%;
-  font-size: 4rem;
+  font-size: 3rem;
   transform: translate(-50%, -50%);
 }
 
@@ -238,7 +228,7 @@ nav.shrink .navbar-toggle {
   position: absolute;
   top: 40%;
   left: 50%;
-  font-size: 4rem;
+  font-size: 3rem;
   transform: translate(-50%, -50%);
 }
 
@@ -335,14 +325,6 @@ nav.shrink .navbar-toggle {
   clear: both;
 }
 
-.wrapper main, .wrapper aside, .wrapper header, .wrapper footer {
- 
-}
-
-.wrapper main, .wrapper aside {
-  min-height: auto;
-
-}
 
 .wrapper main {
   width: 99%;
@@ -350,6 +332,7 @@ nav.shrink .navbar-toggle {
   margin-top: 220px;
   border-radius: 5%;
   margin-left: 0px;
+  min-height: auto;
   
 }
 
@@ -360,30 +343,15 @@ nav.shrink .navbar-toggle {
   margin-top: 180px;
   border-radius: 5%;
   margin-left: 20px;
-
-
 }
 
-.wrapper header, .wrapper footer {
-  clear: both;
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
 
-.wrapper header {
-  margin: 0 0 0 0;
-  height: 135px;
-  width: 100%;
-  position:absolute; 
-
-}
 
 .wrapper footer {
   margin: 1.69492% 0 0 0;
-  height: 700px;
+  max-height: auto;
   background: #FDBB30;
+  max-width: 100%;
 
 }
 
@@ -391,12 +359,12 @@ nav.shrink .navbar-toggle {
 	background-color: #FDBB30;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
-	width: 100%;
-	font: bold 16px sans-serif;
+	width: 100% !important;	
+  font: bold 16px sans-serif;
   font-family: "arial", sans-serif !important;
 	text-align: left;
 	padding: 50px 60px 40px;
-	margin-top: 80px;
+	margin-top: 50px;
 	overflow: hidden;
 }
 
@@ -410,6 +378,7 @@ nav.shrink .navbar-toggle {
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0 0 10px;
+
 }
 
 .footer-distributed h3 span{
@@ -441,7 +410,8 @@ nav.shrink .navbar-toggle {
 /* Footer social icons */
 
 .footer-distributed .footer-icons{
-	margin-top: 40px;
+	margin-top: 30px;
+  border-radius: 5%;
 }
 
 .footer-distributed .footer-icons a{
@@ -531,7 +501,7 @@ nav.shrink .navbar-toggle {
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
 
 	.footer-distributed {
 		font: bold 14px sans-serif;

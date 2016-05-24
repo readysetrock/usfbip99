@@ -19,6 +19,14 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <style>
+          .ui-autocomplete-loading {
+            background: white url("images/ui-anim_basic_16x16.gif") right center no-repeat;
+          }
+          #city { width: 25em; }
+    </style>
+
     <script type="text/javascript">
         $(document).ready(function() {
 
@@ -36,6 +44,42 @@
             })
         });
     </script>
+
+    <script>
+  $(function() {
+    function log( message ) {
+      $( "<div>" ).text( message ).prependTo( "#log" );
+      $( "#log" ).scrollTop( 0 );
+    }
+ 
+    $( "#city" ).autocomplete({
+      source: function( request, response ) {
+        $.ajax({
+          url: "http://gd.geobytes.com/AutoCompleteCity",
+          dataType: "jsonp",
+          data: {
+            q: request.term
+          },
+          success: function( data ) {
+            response( data );
+          }
+        });
+      },
+      minLength: 3,
+      select: function( event, ui ) {
+        log( ui.item ?
+          "Selected: " + ui.item.label :
+          "Nothing selected, input was " + this.value);
+      },
+      open: function() {
+        $( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+      },
+      close: function() {
+        $( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+      }
+    });
+  });
+  </script>
 </head>
 
 <body>
@@ -68,6 +112,17 @@
             </nav>
         </header>
 
+        <div class="ui-widget">
+              <label for="city">Your city: </label>
+              <input id="city">
+              Powered by <a href="http://geonames.org">geonames.org</a>
+            </div>
+             
+            <div class="ui-widget" style="margin-top:2em; font-family:Arial">
+              Result:
+              <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
+            </div>
+
         <table>
             <thead>
                 <th class="term">TERM</th>
@@ -76,6 +131,8 @@
             <tbody id="content"></tbody>
         </table>
 
+            
+ 
 
         <footer class="footer-distributed">
             <div class="footer-left">
