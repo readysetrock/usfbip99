@@ -28,7 +28,7 @@
                 for (var i = 0; i < rows.length; i++) {
                     //console.log(rows[i].gsx$product.$t, rows[i].gsx$price.$t, rows[i].gsx$quantity.$t);
 
-                    $("#content").append("<tr><td>" + rows[i].gsx$term.$t + "</td><td>" + rows[i].gsx$definition.$t + "</td></tr>");
+                    $("#content").append("<tr><td>" + rows[i].gsx$term.$t + "</td><td>"  + rows[i].gsx$definition.$t + "</td></tr>");
                 }
             })
         });
@@ -65,9 +65,10 @@
             </nav>
         </header>
         <div class="container">
-          <table>
+          <table class="table table-striped">
               <thead>
-                  <th class="term">TERM</th>
+                  <th class="term">TERMONOLOGY</th>
+
                   <th class="def">DEFINITION</th>
               </thead>
               <tbody id="content"></tbody>

@@ -144,9 +144,7 @@ html, body {
   background:   #E0E0E0;
 }
 
-header {
-  margin-bottom: 100px;
-}
+
 
 header a img {
 	width: 230px;
@@ -211,8 +209,6 @@ nav.shrink .navbar-toggle {
           align-items: center;
   position:absolute; 
   color: white;
-
-
 }
 
 .logo {
@@ -441,16 +437,13 @@ nav.shrink .navbar-toggle {
   border-radius: 5%;
   margin-left: 0px;
   min-height: auto;
+  margin-bottom: 100px !important;
   
 }
 
-.wrapper aside {
-
-  width: 17.5%;
-  float: left;
+.grid {
   margin-top: 180px;
-  border-radius: 5%;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .footer-distributed {
