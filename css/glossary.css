@@ -1,17 +1,19 @@
 .term {
 	margin-left: 30px !important;
 }
-
 .def {
-	margin-left: 30px !important;
+	margin-left: auto !important;
 }
 
 #content{
 	background-color: white; 
-	border: 15px solid white;
+	border: 5px solid white;
 	border-radius: 10%;
+	margin-left: 30px !important;
 }
 table {
 	margin-top: 190px;
-	margin-left: 50px !important;
+	margin-left: 10px !important;
+	margin-bottom: 100px;
 }
+
