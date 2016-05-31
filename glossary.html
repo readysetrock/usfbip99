@@ -29,7 +29,7 @@
                 for (var i = 0; i < rows.length; i++) {
                     //console.log(rows[i].gsx$product.$t, rows[i].gsx$price.$t, rows[i].gsx$quantity.$t);
 
-                    $("#content").append("<tr><td>" + rows[i].gsx$term.$t + "</td><td>"  + rows[i].gsx$definition.$t + "</td></tr>");
+                    $("#content").append("<tr><td>" + rows[i].gsx$term.$t + "</td><td>" + rows[i].gsx$definition.$t + "</td></tr>");
                 }
             })
         });
@@ -66,14 +66,14 @@
             </nav>
         </header>
         <div class="container">
-          <table class="table table-striped">
-              <thead>
-                  <th class="term">TERMINOLOGY</th>
+            <table class="table table-striped">
+                <thead>
+                    <th class="term">TERMINOLOGY</th>
 
-                  <th class="def">DEFINITION</th>
-              </thead>
-              <tbody id="content"></tbody>
-          </table>
+                    <th class="def">DEFINITION</th>
+                </thead>
+                <tbody id="content"></tbody>
+            </table>
         </div>
         <footer class="footer-distributed">
             <div class="footer-left">
