@@ -3,7 +3,8 @@
         width: 100%;
     }
     img {
-        width: 100%;
+        width: 230px;
+        height: 230px;
     }
 }
 @media (max-width: 640px) {
@@ -130,7 +131,9 @@ body div nav {
 img {
     border-radius: 5%;
     width: 230px;
-    height: 180px;
+    height: 230px;
+    padding: 5px;
+
 }
 nav a {
     padding-top: 20px !important;
@@ -203,8 +206,11 @@ nav.shrink .navbar-toggle {
 }
 .content-image {
     width: 230px;
-    height: auto;
+    height: 230px;
     border-radius: 5%;
+}
+.opacity {
+  opacity: .85;
 }
 .content-details {
     position: absolute;
@@ -253,7 +259,7 @@ nav.shrink .navbar-toggle {
     text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
     font: 36px 'ChunkFiveRegular';
     position: absolute;
-    top: 50px;
+    top: 70px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -266,7 +272,7 @@ nav.shrink .navbar-toggle {
     text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
     font: 36px 'ChunkFiveRegular';
     position: absolute;
-    top: 65px;
+    top: 85px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -274,7 +280,7 @@ nav.shrink .navbar-toggle {
     background-color: rgba(0, 0, 0, 0);
     /*dim the background*/
 }
-.usfbutton a h3 span {
+/*.usfbutton a h3 span {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 800;
     color: white;
@@ -296,7 +302,7 @@ nav.shrink .navbar-toggle {
     left: 50%;
     font-size: 3rem;
     transform: translate(-50%, -50%);
-}
+} */
 .fadeIn-bottom {
     top: 80%;
 }
@@ -397,11 +403,11 @@ nav.shrink .navbar-toggle {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100% !important;
-    height: 100% !important;
+    height: auto;
     font: bold 16px sans-serif;
     font-family: "arial", sans-serif !important;
     text-align: left;
-    padding: 50px 60px 40px;
+    padding: 13px 15px 10px;
     margin-top: 0px;
     overflow: hidden;
 }
@@ -412,7 +418,7 @@ nav.shrink .navbar-toggle {
 }
 .footer-distributed h3 {
     color: #ffffff;
-    font: normal 36px 'Cookie', cursive;
+    font: normal 30px 'Cookie', cursive;
     margin: 0 0 10px;
 }
 .footer-distributed h3 span {
@@ -443,7 +449,7 @@ nav.shrink .navbar-toggle {
     margin-top: 30px;
     border-radius: 5%;
 }
-.footer-distributed .footer-icons a {
+/*.footer-distributed .footer-icons a {
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -456,7 +462,7 @@ nav.shrink .navbar-toggle {
     line-height: 35px;
     margin-right: 3px;
     margin-bottom: 5px;
-}
+} */
 /* Footer Right */
 
 .footer-distributed .footer-right {
@@ -486,8 +492,8 @@ nav.shrink .navbar-toggle {
     font-size: 14px;
     font-weight: normal;
     color: #d1d2d2;
-    width: 400px;
-    padding: 18px;
+    width: 250px;
+    padding: 10px;
 }
 .footer-distributed::-webkit-input-placeholder {
     color: #5c666b;
@@ -500,11 +506,11 @@ nav.shrink .navbar-toggle {
     color: #5c666b;
 }
 .footer-distributed form input {
-    height: 55px;
+    height: 20px;
     margin-bottom: 10px;
 }
 .footer-distributed form textarea {
-    height: 100px;
+    height: 50px;
     margin-bottom: 10px;
 }
 .footer-distributed form button {
@@ -512,8 +518,8 @@ nav.shrink .navbar-toggle {
     background-color: #33383b;
     color: #ffffff;
     border: 0;
-    padding: 15px 50px;
+    padding: 8px 10px;
     font-weight: bold;
-    float: right;
+    float: left;
 }
 /* If you don't want the footer to be responsive, remove these media queries */
