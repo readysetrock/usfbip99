@@ -255,7 +255,7 @@ nav.shrink .navbar-toggle {
     float: left;
 }
 .overlay {
-    color: #000000;
+    color: #fff;
     text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
     font: 36px 'ChunkFiveRegular';
     position: absolute;
@@ -269,7 +269,7 @@ nav.shrink .navbar-toggle {
     /*dim the background*/
 }
 .overlay1 {
-    color: #000000;
+    color: #fff;
     text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
     font: 36px 'ChunkFiveRegular';
     position: absolute;
@@ -282,29 +282,12 @@ nav.shrink .navbar-toggle {
     opacity: 1.0;
     /*dim the background*/
 }
-/*.usfbutton a h3 span {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 800;
-    color: white;
-    text-transform: uppercase;
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    font-size: 3rem;
-    transform: translate(-50%, -50%);
+
+.overlay2 {
+
+
+
 }
-.usfbutton1 a h3 span {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 900;
-    color: black;
-    text-transform: uppercase;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    font-size: 3rem;
-    transform: translate(-50%, -50%);
-} */
 .fadeIn-bottom {
     top: 80%;
 }
