@@ -2023,6 +2023,23 @@
         padding-bottom: 5px !important;
         font-size: 20px;
     }
+     /*framework CSS */
+    .wrapper {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wrapper:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+    .grid {
+        margin-top: 195px;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .site-header {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -2042,7 +2059,11 @@
     }
     .navbar-form {
         float: left;
-        margin-left: 40;
+        margin-left: 40px;
+    }
+    .form-control {
+
+        margin-left: 40px;
     }
     .logo {
         float: left;
@@ -2195,21 +2216,8 @@
         font-size: 2rem;
         font-weight: bold;
     }
- /*framework CSS */
-    .wrapper {
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .wrapper:after {
-        content: " ";
-        display: block;
-        clear: both;
-    }
-    .grid {
-        margin-top: 195px;
-        margin-left: 60px;
-    }
+
+/* Footer left */
     .footer-distributed {
         background-color: #FDBB30;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -2223,7 +2231,6 @@
         margin-top: 0px;
         overflow: hidden;
     }
-    /* Footer left */
 
     .footer-distributed .footer-left {
         float: left;
