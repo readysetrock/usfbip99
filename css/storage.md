@@ -1,5 +1,5 @@
 
- 
+ text-center is-Table Center-Block
 
 
 @media (max-width: 800px) {
