@@ -1608,8 +1608,8 @@ html, body {
     }
     img {
         border-radius: 5%;
-        width: 155px;
-        height: 155px; 
+        width: 150px;
+        height: 150px; 
     }
     nav a {
         padding-top: 10px !important;
@@ -1673,8 +1673,8 @@ html, body {
         margin-right: auto;
     }
     .grid {
-        margin-top: 170px;
-        display: table;
+        margin-top: 175px;
+        display: block;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -1705,8 +1705,8 @@ html, body {
         border-radius: 5%;
     }
     .content-image {
-        width: 155px;
-        height: 155px;
+        width: 150px;
+        height: 150px;
         border-radius: 5%;
     }
     .opacity {
@@ -1717,7 +1717,7 @@ html, body {
         text-align: center;
         padding-left: 0em;
         padding-right: 0em;
-        width: 155px;
+        width: 150px;
         top: 50%;
         left: 50%;
         opacity: 0;
@@ -1748,9 +1748,9 @@ html, body {
     .content {
         border-radius: 5%;
         height: auto;
-        width: 155px;
+        width: 150px;
         position: relative;
-        margin: 10px 0px 10px 0px;
+        margin: 10px 10px 10px 10px;
         overflow: hidden;
         float: left;
     }
