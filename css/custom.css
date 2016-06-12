@@ -1587,6 +1587,10 @@
     }
  }
  
+
+
+
+
 @media all and (min-width: 480px) and (max-width: 768px) { 
 html, body {
         min-width: 100%;
@@ -1595,7 +1599,7 @@ html, body {
         background: #E0E0E0;
     }
     header img.displayed {
-        width: 230px;
+        width: 250px;
         height: auto;
         border-radius: 0% !important;
         display: block;
@@ -1604,8 +1608,8 @@ html, body {
     }
     img {
         border-radius: 5%;
-        width: 220px;
-        height: 220px; 
+        width: 155px;
+        height: 155px; 
     }
     nav a {
         padding-top: 10px !important;
@@ -1669,9 +1673,9 @@ html, body {
         margin-right: auto;
     }
     .grid {
-        margin-top: 200px;
+        margin-top: 170px;
         display: table;
-        width: 50%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1701,8 +1705,8 @@ html, body {
         border-radius: 5%;
     }
     .content-image {
-        width: 220px;
-        height: 220px;
+        width: 155px;
+        height: 155px;
         border-radius: 5%;
     }
     .opacity {
@@ -1713,7 +1717,7 @@ html, body {
         text-align: center;
         padding-left: 0em;
         padding-right: 0em;
-        width: 220px;
+        width: 155px;
         top: 50%;
         left: 50%;
         opacity: 0;
@@ -1744,7 +1748,7 @@ html, body {
     .content {
         border-radius: 5%;
         height: auto;
-        width: 220px;
+        width: 155px;
         position: relative;
         margin: 10px 0px 10px 0px;
         overflow: hidden;
@@ -1753,7 +1757,7 @@ html, body {
     .overlay {
         color: #fff;
         text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-        font: 34px 'ChunkFiveRegular';
+        font: 24px 'ChunkFiveRegular';
         position: absolute;
         top: 32%;
         left: 0;
@@ -1767,7 +1771,7 @@ html, body {
     .overlay1 {
         color: #fff;
         text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-        font: 34px 'ChunkFiveRegular';
+        font: 24px 'ChunkFiveRegular';
         position: absolute;
         top: 39%;
         left: 0;
