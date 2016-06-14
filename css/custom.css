@@ -10,21 +10,14 @@
     html, body {
         width: 100%;
         height: 100%;
-        padding: 1px;
         font-family: "Source Sans Pro", sans-serif;
         background: #E0E0E0;
     }
-    header a img {
-        width: 280px;
+    header img.displayed {
+        width: 320px;
         height: auto;
-        margin-left: 2.5px;
+        margin-left: 20px;
         border-radius: 0% !important;
-    }
-    body div nav {
-        font-family: "Source Sans Pro", sans-serif;
-        font-size: 18px;
-        margin-right: 2px;
-        margin-left: 0px;
     }
     img {
         border-radius: 5%;
@@ -244,20 +237,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .wrapper:after {
-        content: " ";
-        display: block;
-        clear: both;
-    }
-    .wrapper main {
-        width: 99%;
-        float: right;
-        margin-top: 220px;
-        border-radius: 5%;
-        margin-left: 0px;
-        min-height: auto;
-        margin-bottom: 100px !important;
-    }
+
     .grid {
         margin-top: 150px;
         display: block;
