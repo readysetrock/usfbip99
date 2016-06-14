@@ -416,7 +416,7 @@
         border-radius: 5%;
         width: 200px;
         height: 200px;
-        padding: 5px;
+
 
     }
     nav a {
@@ -548,7 +548,7 @@
         z-index: 10;
         background-color: rgba(0, 0, 0, 0);
         opacity: 1.0;
-        /*dim the background*/
+        text-align: center;
     }
     .overlay1 {
         color: #fff;
@@ -562,23 +562,12 @@
         z-index: 10;
         background-color: rgba(0, 0, 0, 0);
         opacity: 1.0;
-        /*dim the background*/
+        text-align: center;
     }
-
     .fadeIn-bottom {
         top: 80%;
     }
-    .Center-Container.is-Table {
-        display: table;
-    }
-    .is-Table .Table-Cell {
-        display: table-cell;
-        vertical-align: middle;
-    }
-    .is-Table .Center-Block {
-        width: 50%;
-        margin: 0 auto;
-    }
+    
     .site-nav {
         text-align: right;
         -webkit-box-flex: 1;
@@ -601,7 +590,7 @@
     }
     .site-nav a {
         color: #FDBB30;
-        text-decoration: overline underline;
+        text-decoration: overline;
         text-decoration-color: yellow;
         text-transform: uppercase;
         padding: 20px;
@@ -609,18 +598,8 @@
         font-size: 2rem;
         font-weight: bold;
     }
-    .account-actions {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        padding-right: 10px;
-        color: #FDBB30;
-    }
+    
+
 
     /*framework CSS */
 
@@ -629,20 +608,8 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .wrapper:after {
-        content: " ";
-        display: block;
-        clear: both;
-    }
-    .wrapper main {
-        width: 99%;
-        float: right;
-        margin-top: 220px;
-        border-radius: 5%;
-        margin-left: 0px;
-        min-height: auto;
-        margin-bottom: 100px !important;
-    }
+ 
+
     .grid {
         margin-top: 110px;
         margin-left: 40px;
@@ -800,8 +767,8 @@
 
     img {
         border-radius: 5%;
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
     }
     nav a {
         padding-top: 20px !important;
@@ -838,13 +805,26 @@
     }
     .site-nav a {
         color: #FDBB30;
-        text-decoration: overline underline;
-        text-decoration-color: yellow;
+        text-decoration: overline;
+        text-decoration-color: #FDBB30;
         text-transform: uppercase;
         padding: 20px;
         display: inline-block;
         font-size: 2rem;
         font-weight: bold;
+    }
+    .grid {
+        margin-top: 110px;
+        display: block;
+        width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo {
+        float: left;
+    }
+    .pull-right {
+        float: right;
     }
     .title {
         color: #333;
@@ -869,8 +849,8 @@
         border-radius: 5%;
     }
     .content-image {
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
         border-radius: 5%;
     }
     .opacity {
@@ -881,7 +861,7 @@
         text-align: center;
         padding-left: 0em;
         padding-right: 0em;
-        width: 200px;
+        width: 160px;
         top: 50%;
         left: 50%;
         opacity: 0;
@@ -912,7 +892,7 @@
     .content {
         border-radius: 5%;
         height: auto;
-        width: 200px;
+        width: 160px;
         position: relative;
         margin: 10px 20px 20px 10px;
         overflow: hidden;
@@ -949,36 +929,6 @@
 
     .fadeIn-bottom {
         top: 80%;
-    }
-   
-    
-    .account-actions {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        padding-right: 10px;
-        color: #FDBB30;
-    }
-
-    .wrapper {
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .grid {
-        margin-top: 110px;
-        margin-left: 40px;
-    }
-    .logo {
-        float: left;
-    }
-    .pull-right {
-        float: right;
     }
     .footer-distributed {
         background-color: #FDBB30;
