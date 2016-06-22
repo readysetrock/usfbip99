@@ -10,6 +10,7 @@
     border-radius: 10%;
     margin-left: 30px !important;
 }
+
 /*------------------------------------------
   Responsive Grid Media Queries - 1201+ 1200, 900, 767, 518
     1201+      - XL
@@ -48,6 +49,13 @@
     margin-left: 10px !important;
     margin-bottom: 100px;
 	}
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1270px;
+  }
     .site-header {
         display: -webkit-box;
         display: -webkit-flex;
@@ -259,6 +267,13 @@
 	    margin-left: 10px !important;
 	    margin-bottom: 100px;
 	}
+    .container {
+        width: 950px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .site-header {
         display: -webkit-box;
         display: -webkit-flex;
@@ -475,6 +490,13 @@
 	}
     .logo {
         float: left;
+    }
+     .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 740px;
     }
     .site-header {
         -webkit-flex-wrap: wrap;
@@ -698,6 +720,13 @@
     .logo {
         float: left;
     }
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 520px;
+    }
     .site-header {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -910,6 +939,13 @@
 	    margin-left: 10px !important;
 	    margin-bottom: 100px;
 	}
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 340px;
+    }
     .site-header {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
