@@ -4,17 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="University of San Francisco" content="CIPE ITS - Business Intelligence Portal">
-    <title>Glossary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="DEMO-University of San Francisco" content="CIPE ITS - Business Intelligence Portal-DEMO">
+    <title>BIP Glossary</title>
     <!-- favicon -->
     <link rel="icon" href="img/favicon.ico">
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="css/glossary.css">
+
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <!-- Glossary Function -->
@@ -26,11 +26,8 @@
                 console.log(data);
                 //console.log(data.feed.entry);
                 rows = data.feed.entry;
-
                 for (var i = 0; i < rows.length; i++) {
-                    //console.log(rows[i].gsx$product.$t, rows[i].gsx$price.$t, rows[i].gsx$quantity.$t);
-
-                    $("#content").append("<tr><td>" + rows[i].gsx$term.$t + "</td><td>" + rows[i].gsx$definition.$t + "</td></tr>");
+                 $("#content").append("<tr><td>" + rows[i].gsx$term.$t + "</td><td>" + rows[i].gsx$definition.$t + "</td></tr>");
                 }
             })
         });
@@ -42,19 +39,20 @@
         <header class="site-header">
             <nav class="site-nav navbar-default navbar-fixed-top col-xs-12">
                 <span><a href="index.html" class="logo">
-        <img src="img/usflogolgtrans.png" alt="USF Logo" />
-      </a></span>
-                <ul>
-                    <li class="active"><a href="index.html">HOME</a>
-                    </li>
-                    <li><a href="glossary.html">GLOSSARY</a>
-                    </li>
-                    <li><a href="https://dataviz.usfca.edu/#/projects">REPORTS</a>
-                    </li>
-                    <!--<li><a href="faq.html">FAQ</a>
-                    </li> -->
-                    <li>
-                        <form class="navbar-form" role="search">
+                <img class="displayed" src="img/usflogolgtrans.png" alt="USF Logo" /></a></span>
+                        <ul >
+                            <li class="active"><a href="index.html">HOME</a>
+                            </li>
+                            <li><a href="glossary.html">GLOSSARY</a>
+                            </li>
+                            <li><a href="https://dataviz.usfca.edu/#/projects">REPORTS</a>
+                            </li>
+                            <!--<li><a href="faq.html">FAQ</a>
+                            </li> -->
+                            </ul>
+                            <ul class="pull-right">
+                            <li >
+                        <form class="navbar-form col-xs-12" role="search">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
                                 <div class="input-group-btn">
@@ -67,6 +65,7 @@
                     </li>
                 </ul>
             </nav>
+
         </header>
         <div class="container">
             <table class="table table-striped">
