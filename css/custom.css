@@ -7,6 +7,7 @@
     518-less    - phone landscape & smaller
 --------------------------------------------*/
 
+
 @media  (min-width: 1201px) {
     html, body {
         width: 100%;
@@ -74,9 +75,15 @@
         font-size: 1.5rem;
         font-weight: bold;
     }
+  .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1270px;
+  }
     .grid {
         display: block;
-        width: 113%;
         margin-top: 140px;
         margin-left: auto;
         margin-right: auto;
@@ -393,10 +400,16 @@
         font-size: 2rem;
         font-weight: bold;
     }
+    .container {
+        width: 970px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .grid {
         margin-top: 120px;
         display: block;
-        width: 110%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -721,13 +734,18 @@
         font-size: 1.75rem;
         font-weight: bold;
     }
-
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 750px;
+    }
     .grid {
         margin-top: 105px;
         display: block;
-        width: 110%;
         margin-left: auto;
-        margin-right:   auto;
+        margin-right: auto;
     }
     .logo {
         float: left;
@@ -1039,7 +1057,6 @@
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
- 
     }
     .site-nav > ul {
         color: #FDBB30;
@@ -1068,10 +1085,16 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 470px;
+    }
     .grid {
         margin-top: 165px;
         display: block;
-        width: 500px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1252,7 +1275,7 @@
     } 
 /* Footer Right */
     .footer-distributed .footer-right {
-        float: right;
+        float: left;
     }
     .footer-distributed .footer-right p {
         display: inline-block;
@@ -1403,10 +1426,16 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 220px;
+    }
     .grid {
-        margin-top: 200px;
+        margin-top: 185px;
         display: table;
-        width: 50%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1472,7 +1501,6 @@
         text-transform: uppercase;
         font-size: 1.25em;
     }
-
     .content {
         border-radius: 5%;
         height: auto;
@@ -1519,10 +1547,10 @@
         box-sizing: border-box;
         width: 100% !important;
         height: auto;
-        font: bold 16px sans-serif;
+        font: bold 14px sans-serif;
         font-family: "arial", sans-serif !important;
         text-align: left;
-        padding: 13px 15px 10px;
+        padding: 10px 10px 10px;
         margin-top: 0px;
         overflow: hidden;
     }
@@ -1531,15 +1559,15 @@
     }
     .footer-distributed h3 {
         color: #ffffff;
-        font: normal 30px 'Cookie', cursive;
-        margin: 0 0 10px;
+        font: normal 24px 'Cookie', cursive;
+        margin: 0;
     }
     .footer-distributed h3 span {
         color: #00543C;
     }
     .footer-distributed .footer-links {
         color: #ffffff;
-        margin: 0 0 10px;
+        margin: 0 0 5px;
         padding: 0;
     }
     .footer-distributed .footer-links a {
@@ -1550,12 +1578,12 @@
     }
     .footer-distributed .footer-company-name {
         color: #8f9296;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: normal;
         margin: 0;
     }
     .footer-distributed .footer-icons {
-        margin-top: 30px;
+        margin-top: 10px;
         border-radius: 5%;
     }
     .footer-distributed .footer-icons a {
@@ -1573,12 +1601,12 @@
         margin-bottom: 5px;
     } 
     .footer-distributed .footer-right {
-        float: right;
+        float: left;
     }
     .footer-distributed .footer-right p {
         display: inline-block;
         vertical-align: top;
-        margin: 15px 42px 0 0;
+        margin: 5px 10px 0 0;
         color: #ffffff;
     }
 
@@ -1629,7 +1657,7 @@
         float: left;
     }
     .footer-distributed {
-        padding: 30px;
+        padding: 20px;
     }
     .footer-distributed .footer-left,
     .footer-distributed .footer-right {
@@ -1638,10 +1666,10 @@
         margin: 0 auto;
     }
     .footer-distributed .footer-left {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
     .footer-distributed form {
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .footer-distributed form {
         display: block;
